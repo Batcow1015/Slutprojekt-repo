@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraScript : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class CameraScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("playa");
+        player = GameObject.Find("player");
 
         Camera cam = GetComponent<Camera>();
         float cameraHeight = cam.orthographicSize;
