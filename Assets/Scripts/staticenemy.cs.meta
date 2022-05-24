@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a21edb2d7f3ffd240a834429c16eed48
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - "fhj\xE4rta1": {fileID: 5016758721640618262, guid: 9fac153eb9e95b345964228bb2b45da8, type: 3}
+  - "fhj\xE4rta2": {fileID: 8858239351852447930, guid: 3ffcc77abe5615249ba5c5329a35d414, type: 3}
+  - "fhj\xE4rta3": {fileID: 518662103821910813, guid: 01b3b05da1467e04e8e483e2246c3a34, type: 3}
+  - gameover: {fileID: 1812854742636714854, guid: 10b070621a08bd545842f33262ea4ed4, type: 3}
+  - kaka: {fileID: 5714811546983070112, guid: f7bdbe795faeb9743a79eee0859e0cd2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

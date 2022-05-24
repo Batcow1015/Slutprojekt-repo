@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class levelendscript : MonoBehaviour
 {
-    public string nextLevel = "´levelo3";
+    public string nextLevel = "";
 
     // Start is called before the first frame update
     void Start()

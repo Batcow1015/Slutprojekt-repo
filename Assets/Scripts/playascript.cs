@@ -26,6 +26,8 @@ public class playascript : MonoBehaviour
     void Update()
     {
 
+
+
         if (Input.GetKey(KeyCode.R))
         {
             transform.position = startposition;
@@ -43,6 +45,7 @@ public class playascript : MonoBehaviour
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
             sr.flipX = true;
         }
+
 
 
         else
@@ -65,6 +68,7 @@ public class playascript : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             transform.position = startposition;
+            
         }
 
     }
