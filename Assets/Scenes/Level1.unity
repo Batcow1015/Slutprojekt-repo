@@ -318,11 +318,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3726337220658847099, guid: f012de7644a71d344b42f45598b5fd4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.76
+      value: -58.88
       objectReference: {fileID: 0}
     - target: {fileID: 3726337220658847099, guid: f012de7644a71d344b42f45598b5fd4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.7
+      value: -13.45
       objectReference: {fileID: 0}
     - target: {fileID: 3726337220658847099, guid: f012de7644a71d344b42f45598b5fd4a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -579,7 +579,6 @@ MonoBehaviour:
   "fhj\xE4rta1": {fileID: 5016758721640618262, guid: 9fac153eb9e95b345964228bb2b45da8, type: 3}
   "fhj\xE4rta2": {fileID: 8858239351852447930, guid: 3ffcc77abe5615249ba5c5329a35d414, type: 3}
   "fhj\xE4rta3": {fileID: 518662103821910813, guid: 01b3b05da1467e04e8e483e2246c3a34, type: 3}
-  gameover: {fileID: 1812854742636714854, guid: 10b070621a08bd545842f33262ea4ed4, type: 3}
 --- !u!95 &220143730
 Animator:
   serializedVersion: 3
@@ -2879,7 +2878,6 @@ MonoBehaviour:
   "fhj\xE4rta1": {fileID: 5016758721640618262, guid: 9fac153eb9e95b345964228bb2b45da8, type: 3}
   "fhj\xE4rta2": {fileID: 8858239351852447930, guid: 3ffcc77abe5615249ba5c5329a35d414, type: 3}
   "fhj\xE4rta3": {fileID: 518662103821910813, guid: 01b3b05da1467e04e8e483e2246c3a34, type: 3}
-  gameover: {fileID: 1812854742636714854, guid: 10b070621a08bd545842f33262ea4ed4, type: 3}
 --- !u!95 &1964631358
 Animator:
   serializedVersion: 3
@@ -3061,7 +3059,6 @@ MonoBehaviour:
   "fhj\xE4rta1": {fileID: 1647608143}
   "fhj\xE4rta2": {fileID: 462432604}
   "fhj\xE4rta3": {fileID: 250471923}
-  gameover: {fileID: 1812854742636714854, guid: 10b070621a08bd545842f33262ea4ed4, type: 3}
 --- !u!1 &2079744508
 GameObject:
   m_ObjectHideFlags: 0

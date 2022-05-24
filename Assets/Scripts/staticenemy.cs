@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class staticenemy : MonoBehaviour
 {
-    public GameObject fhjärta1, fhjärta2, fhjärta3, gameover;
+    public GameObject fhjärta1, fhjärta2, fhjärta3;
     public static int hälsa;
     
     
@@ -15,7 +16,7 @@ public class staticenemy : MonoBehaviour
         fhjärta1.gameObject.SetActive(true);
         fhjärta2.gameObject.SetActive(true);
         fhjärta3.gameObject.SetActive(true);
-        gameover.gameObject.SetActive(false);
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -62,11 +63,19 @@ public class staticenemy : MonoBehaviour
                 fhjärta1.gameObject.SetActive(false);
                 fhjärta2.gameObject.SetActive(false);
                 fhjärta3.gameObject.SetActive(false);
-                gameover.gameObject.SetActive(true);
-                
-                Time.timeScale = 0;
+                SceneManager.LoadScene("Gameover");
+                ScoreTextScript.coinAmount = 0;
+
+
                 break;
+
+                
+     
         }
+
+
+
+
     }
 
 }
